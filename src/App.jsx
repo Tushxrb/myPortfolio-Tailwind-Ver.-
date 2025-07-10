@@ -258,9 +258,9 @@ const Portfolio = () => {
         <section className="pt-16 min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800">
           <div className="text-center px-4">
             <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-8 flex items-center justify-center">
-              <span className="text-4xl font-bold text-white">JD</span>
+              <span className="text-4xl font-bold text-white">TB</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">John Doe</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Tushar Banjan</h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
               Full-Stack Developer & UI/UX Designer
             </p>
@@ -293,13 +293,13 @@ const Portfolio = () => {
                   problems into simple, beautiful solutions.
                 </p>
                 <div className="flex gap-4">
-                  <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <a href="https://github.com/Tushxrb/" className="text-blue-600 hover:text-blue-800 transition-colors">
                     <Github className="w-6 h-6" />
                   </a>
-                  <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <a href="https://www.linkedin.com/in/tushar-banjan-2846731b5/" className="text-blue-600 hover:text-blue-800 transition-colors">
                     <Linkedin className="w-6 h-6" />
                   </a>
-                  <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <a href="mailto:tusharbanjan@gmail.com" className="text-blue-600 hover:text-blue-800 transition-colors">
                     <Mail className="w-6 h-6" />
                   </a>
                 </div>
@@ -307,9 +307,9 @@ const Portfolio = () => {
               <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg p-8 text-white">
                 <h3 className="text-2xl font-bold mb-4">Quick Facts</h3>
                 <ul className="space-y-2">
-                  <li>🎓 Computer Science Graduate</li>
-                  <li>💼 5+ Years Experience</li>
-                  <li>🌍 Based in San Francisco, CA</li>
+                  <li>🎓 BSc IT Graduate</li>
+                  <li>💼 Fresher</li>
+                  <li>🌍 Based in Mumbai, MH</li>
                   <li>☕ Coffee Enthusiast</li>
                   <li>🎯 Problem Solver</li>
                 </ul>
@@ -357,10 +357,10 @@ const Portfolio = () => {
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
               Download my resume to learn more about my experience and qualifications.
             </p>
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 mx-auto">
+            <a href="/resume.pdf" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 mx-auto">
               <Download className="w-5 h-5" />
               Download Resume
-            </button>
+            </a>
           </div>
         </section>
 
@@ -378,15 +378,15 @@ const Portfolio = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-blue-600" />
-                    <span>john.doe@example.com</span>
+                    <span>tusharbanjan@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="w-5 h-5 text-blue-600" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91 7304073363</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="w-5 h-5 text-blue-600" />
-                    <span>San Francisco, CA</span>
+                    <span>Mumbai, MH</span>
                   </div>
                 </div>
               </div>
@@ -400,7 +400,7 @@ const Portfolio = () => {
         {/* Footer */}
         <footer className="bg-gray-900 text-white py-8 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <p>&copy; 2024 John Doe. All rights reserved.</p>
+            <p>&copy; 2024 Tushar Banjan. All rights reserved.</p>
           </div>
         </footer>
       </div>
